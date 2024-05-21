@@ -2,6 +2,13 @@ class Area {
     private int length;
     private int breadth;
 
+    // Default constructor
+    public Area() {
+        // Initialize length and breadth to default values
+        this.length = 0;
+        this.breadth = 0;
+    }
+
     // Method to set dimensions
     public void setDim(int length, int breadth) {
         this.length = length;
